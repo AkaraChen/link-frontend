@@ -5,7 +5,13 @@ const Card = ({ children, image, desc, link }: props) => (
   <a href={link} className={styles.container} target="_blank" rel="noreferrer">
     <picture>
       <source srcSet={image} />
-      <img className={styles.image} src={image} width={70} height={70} alt={children?.toString()} />
+      <img
+        className={styles.image}
+        src={image}
+        width={70}
+        height={70}
+        alt={children?.toString()}
+      />
     </picture>
     <section className={styles.section}>
       <p className={styles.title}>{children}</p>

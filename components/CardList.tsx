@@ -2,25 +2,33 @@ import React from "react";
 import styles from "../styles/CardList.module.css";
 import Card from "./Card";
 import config from "../config";
+import { useState, useEffect } from "react";
+import { data } from "../config";
+import { shuffle } from "lodash";
+import "animate.css";
 
-const render = (list: data[]) =>
-  list.map((item) => (
-    <div key={item.title}>
-      <Card image={item.avatar} desc={item.desc} link={item.link}>
-        {item.title}
-      </Card>
-    </div>
-  ));
+const CardList = () => {
+  const [list, setList] = useState<data[]>([]);
+  let delay = 0;
+  const getDelay = () => ++delay/10;
 
-const CardList = () => (
-  <section className={styles.container}>{render(config)}</section>
-);
+  useEffect(() => setList(shuffle(config)), []);
 
-type data = {
-  avatar: string;
-  title: string;
-  desc?: string;
-  link: string;
+  return (
+    <section className={styles.container}>
+      {list.map((item) => (
+        <div
+          style={{ animationDelay: `${getDelay()}s` }}
+          className="animate__animated animate__bounceIn"
+          key={item.title}
+        >
+          <Card image={item.avatar} desc={item.desc} link={item.link}>
+            {item.title}
+          </Card>
+        </div>
+      ))}
+    </section>
+  );
 };
 
 export default CardList;

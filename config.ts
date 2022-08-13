@@ -27,7 +27,7 @@ const config = [
 
 export default config
 
-type data = {
+export type data = {
     avatar: string;
     title: string;
     desc?: string;
