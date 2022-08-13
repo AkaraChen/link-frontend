@@ -41,10 +41,17 @@
     background-color: rgba(245, 245, 245, 0.5);
 }
 
-.table td, .table th {
+.table td,
+.table th {
     padding: 8px;
 }
 
 .table th {
     text-align: start;
+}
+
+@media (prefers-color-scheme: dark) {
+    .table tr:nth-child(even) {
+        background-color: rgba(245, 245, 245, 0.1);
+    }
 }
