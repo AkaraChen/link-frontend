@@ -21,7 +21,7 @@
     font-family: 'Noto Sans SC';
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .title {
@@ -42,5 +42,11 @@
 
     .image {
         box-shadow: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 300px;
     }
 }

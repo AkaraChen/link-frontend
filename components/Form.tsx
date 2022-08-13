@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Form.module.css";
 
 const Form = () => (
-  <form style={{ marginTop: "5vh" }} className={styles.container}>
+  <form className={styles.container}>
     <h2 className={styles.title}>申请友链</h2>
     <input type="text" placeholder="昵称" className={styles.input} />
     <input type="text" placeholder="站点标题" className={styles.input} />
