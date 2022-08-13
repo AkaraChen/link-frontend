@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    font-family: 'Rubik';
+    padding: 20px;
+    border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+    align-items: center;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.container *+* {
+    font-size: 17px;
+    margin: 0 20px;
+}
+
+@media screen and (min-width:768px){
+    .container h1{
+        margin-right: auto;
+    }
+}
