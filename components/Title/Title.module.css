@@ -1,0 +1,14 @@
+.title {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.title::before {
+    content: "";
+    position: relative;
+    left: 0;
+    top: 0;
+    border-left: 4px #3498db solid;
+    margin-right: 7.5px;
+}

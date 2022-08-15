@@ -1,22 +1,22 @@
 import React from "react";
-import styles from "../styles/CardList.module.css";
+import styles from "./CardList.module.css";
 import Card from "./Card";
-import config from "../config";
 import { useState, useEffect } from "react";
-import { data } from "../config";
+import { data } from "../../config";
 import { shuffle } from "lodash";
 import "animate.css";
 
-const CardList = () => {
-  const [list, setList] = useState<data[]>([]);
-  let delay = 0;
-  const getDelay = () => ++delay/10;
+const CardList = ({ list }: props) => {
 
-  useEffect(() => setList(shuffle(config)), []);
+  const [shuffledList, setList] = useState<data[]>([]);
+  let delay = 0;
+  const getDelay = () => ++delay / 10;
+
+  useEffect(() => setList(shuffle(list)), [list]);
 
   return (
     <section className={styles.container}>
-      {list.map((item) => (
+      {shuffledList.map((item) => (
         <div
           style={{ animationDelay: `${getDelay()}s` }}
           className="animate__animated animate__bounceIn"
@@ -29,6 +29,10 @@ const CardList = () => {
       ))}
     </section>
   );
+};
+
+type props = {
+  list: data[];
 };
 
 export default CardList;

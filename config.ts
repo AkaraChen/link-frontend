@@ -1,6 +1,6 @@
 const config = [
     {
-        title: "TimochanのBlog",
+        title: "Timochan",
         link: "https://timochan.cn",
         desc: "Let's start learning",
         avatar:

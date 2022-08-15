@@ -1,0 +1,9 @@
+.link {
+    color: #3498db;
+}
+
+.link::after {
+    content: "↗";
+    left: 0;
+    top: 0;
+}

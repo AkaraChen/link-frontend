@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/Layout/Layout";
 import styles from "../styles/Error.module.css";
 import { useRouter } from "next/router";
 import Head from "next/head";

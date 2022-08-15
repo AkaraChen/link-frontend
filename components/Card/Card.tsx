@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import styles from "../styles/Card.module.css";
+import styles from "./Card.module.css";
 
 const Card = ({ children, image, desc, link }: props) => (
   <a href={link} className={styles.container} target="_blank" rel="noreferrer">
