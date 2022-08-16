@@ -1,6 +1,7 @@
 import React from "react";
 import type { NextPage } from "next";
-import Note from "../components/Table/Table";
+import Table from "../components/Table/Table";
+import Cell from "../components/Table/cell";
 import Layout from "../components/Layout/Layout";
 import Head from "next/head";
 import styles from "../styles/Form.module.css";
@@ -26,30 +27,18 @@ const Login: NextPage = () => (
         <input type="reset" className={styles.button} />
       </form>
       <Title>站点信息</Title>
-      <Note>
-        <tr>
-          <td>站点标题</td>
-          <td>AkaraChen</td>
-        </tr>
-        <tr>
-          <td>站点图标</td>
-          <td>
-            <Anchor href="https://avatars.githubusercontent.com/u/85140972?v=4">
-              Link
-            </Anchor>
-          </td>
-        </tr>
-        <tr>
-          <td>网站链接</td>
-          <td>
-            <Anchor href="https://akr.moe">akr.moe</Anchor>
-          </td>
-        </tr>
-        <tr>
-          <td>网站描述</td>
-          <td>位于互联网边缘的小站。</td>
-        </tr>
-      </Note>
+      <Table>
+        <Cell name="站点标题">AkaraChen</Cell>
+        <Cell name="站点图标">
+          <Anchor href="https://avatars.githubusercontent.com/u/85140972?v=4">
+            Link
+          </Anchor>
+        </Cell>
+        <Cell name="网站链接">
+          <Anchor href="https://akr.moe">akr.moe</Anchor>
+        </Cell>
+        <Cell name="网站描述">位于互联网边缘的小站。</Cell>
+      </Table>
     </div>
   </Layout>
 );
