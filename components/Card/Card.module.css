@@ -18,7 +18,6 @@
 }
 
 .section {
-    font-family: 'Noto Sans SC';
     display: flex;
     flex-direction: column;
     margin-left: 15px;
@@ -26,8 +25,7 @@
 
 .title {
     font-size: 19px;
-    font-weight: 500;
-    word-break:break-all;
+    word-break: break-all;
 }
 
 .desc {
