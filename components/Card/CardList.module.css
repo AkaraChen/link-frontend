@@ -1,12 +1,17 @@
 .container {
     width: fit-content;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .container>* {
     margin: 0 20px;
-    flex: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .container {
+        justify-content: center;
+    }
 }
