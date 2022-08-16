@@ -1,6 +1,7 @@
 import React from "react";
 import type { NextPage } from "next";
-import Table, { Cell } from "../components/Table/Table";
+import Table from "../components/Table/Table";
+import Cell from "../components/Table/TableCell";
 import Layout from "../components/Layout/Layout";
 import Head from "next/head";
 import styles from "../styles/Form.module.css";
