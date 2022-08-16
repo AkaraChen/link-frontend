@@ -2,8 +2,10 @@
     width: fit-content;
     display: flex;
     margin: auto;
+    display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .container>* {
@@ -11,6 +13,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .container {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .container {
         justify-content: center;
     }
