@@ -1,0 +1,12 @@
+.container {
+    opacity: 0.7;
+    border-top: #3498db 5px solid;
+    padding: 1em;
+    word-wrap: break-word;
+    background-color: #ecf0f1;
+    margin: 10px 0;
+}
+
+.container>* {
+    opacity: 0.7;
+}

@@ -8,6 +8,7 @@ import styles from "../styles/Form.module.css";
 import "animate.css";
 import Title from "../components/Title/Title";
 import Anchor from "../components/Anchor/Anchor";
+import Notice from "../components/Notice/Notice";
 
 const Submit: NextPage = () => (
   <Layout width="600px">
@@ -19,6 +20,10 @@ const Submit: NextPage = () => (
     <div className="animate__animated animate__fadeIn">
       <form className={styles.container}>
         <Title>申请友链</Title>
+        <Notice>
+          后端暂未准备完成，表单此时不可用，请按照格式将友链申请发送至{" "}
+          <a href="mailto:akarachen@outlook.com">akarachen@outlook.com</a>
+        </Notice>
         <input type="text" placeholder="昵称" className={styles.input} />
         <input type="text" placeholder="站点标题" className={styles.input} />
         <input type="url" placeholder="网站链接" className={styles.input} />
