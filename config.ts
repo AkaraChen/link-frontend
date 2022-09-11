@@ -37,6 +37,12 @@ const config = [
     avatar: "https://static.gmx0.cn/myIndex/avatar.jpg",
     desc: "Operator",
   },
+  {
+    title: "喵二の小博客",
+    link: "www.miaoer.xyz",
+    avatar: "https://s1.ax1x.com/2022/09/11/vOBjiV.jpg",
+    desc: "缘，妙不可言",
+  },
 ] as data[];
 
 export default config;
