@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  "@types/lodash": 4.14.185
-  "@types/node": 18.7.1
-  "@types/nprogress": 0.2.0
-  "@types/react": 18.0.17
-  "@types/react-dom": 18.0.6
-  "@typescript-eslint/eslint-plugin": 5.37.0
-  "@typescript-eslint/parser": 5.37.0
+  '@types/lodash': 4.14.185
+  '@types/node': 18.7.1
+  '@types/nprogress': 0.2.0
+  '@types/react': 18.0.20
+  '@types/react-dom': 18.0.6
+  '@typescript-eslint/eslint-plugin': 5.37.0
+  '@typescript-eslint/parser': 5.37.0
   animate.css: 4.1.1
   eslint: 8.23.1
   eslint-config-next: 12.3.0
@@ -31,12 +31,21 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
+<<<<<<< HEAD
   "@types/node": 18.7.1
   "@types/nprogress": 0.2.0
   "@types/react": 18.0.17
   "@types/react-dom": 18.0.6
   "@typescript-eslint/eslint-plugin": 5.37.0_22c5fnooleyfkzrkkgdmel5kmi
   "@typescript-eslint/parser": 5.37.0_irgkl5vooow2ydyo6aokmferha
+=======
+  '@types/node': 18.7.1
+  '@types/nprogress': 0.2.0
+  '@types/react': 18.0.20
+  '@types/react-dom': 18.0.6
+  '@typescript-eslint/eslint-plugin': 5.37.0_7yuior3nseb5pya2lwpwzaadte
+  '@typescript-eslint/parser': 5.37.0_4brgkhw6cq4me3drk3kxrpb2mm
+>>>>>>> origin/renovate/react-18.x
   eslint: 8.23.1
   eslint-config-next: 12.3.0_4brgkhw6cq4me3drk3kxrpb2mm
   eslint-config-prettier: 8.5.0_eslint@8.23.1
@@ -258,12 +267,9 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-arm64-msvc/12.3.0:
-    resolution:
-      {
-        integrity: sha512-pzSzaxjDEJe67bUok9Nxf9rykbJfHXW0owICFsPBsqHyc+cr8vpF7g9e2APTCddtVhvjkga9ILoZJ9NxWS7Yiw==,
-      }
-    engines: { node: ">= 10" }
+  /@next/swc-win32-arm64-msvc/12.2.4:
+    resolution: {integrity: sha512-9XKoCXbNZuaMRPtcKQz3+hgVpkMosaLlcxHFXT8/j4w61k7/qvEbrkMDS9WHNrD/xVcLycwhPRgXcns2K1BdBQ==}
+    engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
@@ -388,6 +394,7 @@ packages:
         integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==,
       }
     dependencies:
+<<<<<<< HEAD
       "@types/react": 18.0.17
     dev: true
 
@@ -396,6 +403,13 @@ packages:
       {
         integrity: sha512-38ETy4tL+rn4uQQi7mB81G7V1g0u2ryquNmsVIOKUAEIDK+3CUjZ6rSRpdvS99dNBnkLFL83qfmtLacGOTIhwQ==,
       }
+=======
+      '@types/react': 18.0.20
+    dev: true
+
+  /@types/react/18.0.20:
+    resolution: {integrity: sha512-MWul1teSPxujEHVwZl4a5HxQ9vVNsjTchVA+xRqv/VYGCuKGAU6UhfrTdF5aBefwD1BHUD8i/zq+O/vyCm/FrA==}
+>>>>>>> origin/renovate/react-18.x
     dependencies:
       "@types/prop-types": 15.7.5
       "@types/scheduler": 0.16.2
