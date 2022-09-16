@@ -1047,11 +1047,16 @@ packages:
     dev: true
 
   /eslint-config-xo/0.42.0_eslint@8.23.1:
+<<<<<<< HEAD
     resolution:
       {
         integrity: sha512-HIfd+AM6tHFoaZ/NXYDV3Mr/CJrAj/DoP6IOYt1/v+90XtCwVYOfW7LXbRDYDmhQMzT16h7eqPRcex72waRqdA==,
       }
     engines: { node: ">=12" }
+=======
+    resolution: {integrity: sha512-HIfd+AM6tHFoaZ/NXYDV3Mr/CJrAj/DoP6IOYt1/v+90XtCwVYOfW7LXbRDYDmhQMzT16h7eqPRcex72waRqdA==}
+    engines: {node: '>=12'}
+>>>>>>> renovate/eslint-config-xo-0.x
     peerDependencies:
       eslint: ">=8.14.0"
     dependencies:
