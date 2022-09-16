@@ -29,6 +29,6 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-config-xo": "0.41.0",
     "eslint-plugin-react": "7.31.8",
-    "typescript": "4.7.4"
+    "typescript": "4.8.3"
   }
 }
