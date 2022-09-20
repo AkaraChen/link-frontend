@@ -39,8 +39,8 @@ const config = [
   },
   {
     title: "喵二の小博客",
-    link: "www.miaoer.xyz",
-    avatar: "https://s1.ax1x.com/2022/09/11/vOBjiV.jpg",
+    link: "https://www.miaoer.xyz",
+    avatar: "https://dd-static.jd.com/ddimg/jfs/t1/25080/8/19573/58432/63295dbcE35bcebb8/4296442afe71ac89.png",
     desc: "缘，妙不可言",
   },
 ] as data[];
