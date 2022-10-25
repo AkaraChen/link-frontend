@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/lodash': 4.14.186
-  '@types/node': 18.7.1
+  '@types/node': 18.11.5
   '@types/nprogress': 0.2.0
   '@types/react': 18.0.22
   '@types/react-dom': 18.0.6
@@ -31,7 +31,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@types/node': 18.7.1
+  '@types/node': 18.11.5
   '@types/nprogress': 0.2.0
   '@types/react': 18.0.22
   '@types/react-dom': 18.0.6
@@ -268,8 +268,8 @@ packages:
     resolution: {integrity: sha512-eHcVlLXP0c2FlMPm56ITode2AgLMSa6aJ05JTTbYbI+7EMkCEE5qk2E41d5g2lCVTqRe0GnnRFurmlCsDODrPw==}
     dev: false
 
-  /@types/node/18.7.1:
-    resolution: {integrity: sha512-GKX1Qnqxo4S+Z/+Z8KKPLpH282LD7jLHWJcVryOflnsnH+BtSDfieR6ObwBMwpnNws0bUK8GI7z0unQf9bARNQ==}
+  /@types/node/18.11.5:
+    resolution: {integrity: sha512-3JRwhbjI+cHLAkUorhf8RnqUbFXajvzX4q6fMn5JwkgtuwfYtRQYI3u4V92vI6NJuTsbBQWWh3RZjFsuevyMGQ==}
     dev: true
 
   /@types/nprogress/0.2.0:
