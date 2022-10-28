@@ -40,8 +40,7 @@ const config = [
   {
     title: "喵二の小博客",
     link: "https://www.miaoer.xyz",
-    avatar:
-      "https://dd-static.jd.com/ddimg/jfs/t1/25080/8/19573/58432/63295dbcE35bcebb8/4296442afe71ac89.png",
+    avatar: "https://www.miaoer.xyz/weblogo.jpg",
     desc: "缘，妙不可言",
   },
   {
