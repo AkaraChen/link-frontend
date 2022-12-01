@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/lodash': 4.14.190
+  '@types/lodash': 4.14.191
   '@types/node': 18.11.9
   '@types/nprogress': 0.2.0
   '@types/react': 18.0.25
@@ -22,7 +22,7 @@ specifiers:
   typescript: 4.9.3
 
 dependencies:
-  '@types/lodash': 4.14.190
+  '@types/lodash': 4.14.191
   animate.css: 4.1.1
   lodash: 4.17.21
   next: 13.0.5_biqbaboplfbrettd7655fr4n2y
@@ -276,8 +276,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/lodash/4.14.190:
-    resolution: {integrity: sha512-5iJ3FBJBvQHQ8sFhEhJfjUP+G+LalhavTkYyrAYqz5MEJG+erSv0k9KJLb6q7++17Lafk1scaTIFXcMJlwK8Mw==}
+  /@types/lodash/4.14.191:
+    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
     dev: false
 
   /@types/node/18.11.9:
