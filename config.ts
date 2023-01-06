@@ -4,51 +4,63 @@ const config = [
     link: "https://timochan.cn",
     desc: "Let's start learning",
     avatar:
-      "https://pic.rmb.bdstatic.com/bjh/4d22b9343b30540efed365a52262be87.png",
+      "./avatar/timochan.png",
   },
   {
     title: "Expliyh",
     link: "https://www.mt6735.top/",
     avatar:
-      "https://cdn.jsdelivr.net/gh/expliyh/static_expli_top@main/static/favicon/afavicon.ico",
+      "./avatar/expliyh.ico",
   },
   {
     title: "IbeXlwy",
     link: "https://ibexlwy.com/",
-    avatar: "https://ibexlwy.com/photo/head.png",
+    avatar: "./avatar/lmj.png",
     desc: "人活着，不能为了贡品",
   },
   {
     title: "JiHua",
     link: "https://jihau.com/",
     avatar:
-      "https://pic.rmb.bdstatic.com/bjh/aa2e26a532fed409885b6506eeeebcee.png",
+      "./avatar/jihua.png",
   },
   {
     title: "江村暮",
     link: "https://rene.wang",
     avatar:
-      "https://pic.rmb.bdstatic.com/bjh/0d1dda383594903e2ca3b42a38167550.png",
+      "./avatar/jcm.png",
     desc: "写在kindle里的博客",
   },
   {
     title: "Signaliks",
     link: "https://iks.moe/",
-    avatar: "https://static.gmx0.cn/myIndex/avatar.jpg",
+    avatar: "./avatar/iks.jpeg",
     desc: "Operator",
   },
   {
     title: "喵二の小博客",
     link: "https://www.miaoer.xyz",
-    avatar: "https://www.miaoer.xyz/weblogo.jpg",
+    avatar: "./avatar/miaoer.jpeg",
     desc: "缘，妙不可言",
   },
   {
     title: "秉松博客",
     link: "https://blog.iucky.cn/",
-    avatar: "https://q1.qlogo.cn/g?b=qq&nk=1596355173&s=640",
+    avatar: "./avatar/wibus.jpeg",
     desc: "有秉性且正直的松",
   },
+  {
+    title: "静かな森",
+    link: "https://innei.ren",
+    avatar: "./avatar/innei.jpeg",
+    desc: "致虚极，守静笃。"
+  },
+  {
+    title: "保罗的小宇宙",
+    link: "https://paugram.com",
+    avatar: "./avatar/paul.png",
+    desc: "Still single, still waiting..."
+  }
 ] as data[];
 
 export default config;
