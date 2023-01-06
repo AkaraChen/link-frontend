@@ -44,7 +44,7 @@ const config = [
     desc: "缘，妙不可言",
   },
   {
-    title: "秉松博客",
+    title: "可愛い松",
     link: "https://blog.iucky.cn/",
     avatar: "./avatar/wibus.jpeg",
     desc: "有秉性且正直的松",
