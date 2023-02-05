@@ -60,6 +60,12 @@ const config = [
     link: "https://paugram.com",
     avatar: "./avatar/paul.png",
     desc: "Still single, still waiting..."
+  },
+  {
+    title: "Justin Sun",
+    link: "https://jsun.lol",
+    avatar: "./avatar/jsun969.png",
+    desc: "LOL! Welcome to Justin Sun's personal website!"
   }
 ] as data[];
 
