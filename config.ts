@@ -58,7 +58,7 @@ const config = [
   {
     title: "保罗的小宇宙",
     link: "https://paugram.com",
-    avatar: "./avatar/paul.png",
+    avatar: "./avatar/paul.jpeg",
     desc: "Still single, still waiting..."
   },
   {
