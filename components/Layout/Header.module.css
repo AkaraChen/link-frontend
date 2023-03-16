@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    font-family: 'Rubik';
     padding: 20px;
     border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
     align-items: center;

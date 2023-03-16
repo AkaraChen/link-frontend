@@ -1,13 +1,13 @@
-import React from "react";
+import { FC } from "react";
 import styles from "./Anchor.module.css";
 
-const Link = ({ children, href }: props) => (
+const Link:FC<LinkProps> = ({ children, href }) => (
   <a className={styles.link} href={href} target="_blank" rel="noreferrer">
     {children}
   </a>
 );
 
-type props = {
+type LinkProps = {
   children: string;
   href: string;
 };

@@ -9,6 +9,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.54.1
   '@typescript-eslint/parser': 5.54.1
   animate.css: 4.1.1
+  clsx: ^1.2.1
   eslint: 8.36.0
   eslint-config-next: 13.2.4
   eslint-config-prettier: 8.7.0
@@ -24,6 +25,7 @@ specifiers:
 dependencies:
   '@types/lodash': 4.14.191
   animate.css: 4.1.1
+  clsx: 1.2.1
   lodash: 4.17.21
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
   nprogress: 0.2.0
@@ -618,6 +620,11 @@ packages:
 
   /client-only/0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
+    dev: false
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
     dev: false
 
   /color-convert/2.0.1:

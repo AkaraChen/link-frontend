@@ -1,13 +1,13 @@
-import React, { ReactNode } from "react";
+import { FC, ReactNode } from "react";
 
-const Cell = ({ name, children }: props) => (
+const Cell:FC<TableCellProps> = ({ name, children }) => (
   <tr>
     <td>{name}</td>
     <td>{children}</td>
   </tr>
 );
 
-type props = {
+type TableCellProps = {
   name: string;
   children: ReactNode;
 };

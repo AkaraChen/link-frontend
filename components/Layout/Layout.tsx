@@ -1,16 +1,15 @@
-import type { ReactNode } from "react";
+import type { FC, ReactNode } from "react";
 import Header from "./Header";
-import React from "react";
 import Main from "./Main";
 
-const Layout = ({ children, width }: props) => (
+const Layout:FC<LayoutProps> = ({ children, width }) => (
   <div>
-    <Header></Header>
+    <Header />
     <Main width={width ? width : "1200px"}>{children}</Main>
   </div>
 );
 
-type props = {
+type LayoutProps = {
   children: ReactNode;
   width?: string;
 };

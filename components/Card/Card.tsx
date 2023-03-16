@@ -1,7 +1,7 @@
-import React, { ReactNode } from "react";
+import { FC, ReactNode } from "react";
 import styles from "./Card.module.css";
 
-const Card = ({ children, image, desc, link }: props) => (
+const Card: FC<CardProps> = ({ children, image, desc, link }) => (
   <a href={link} className={styles.container} target="_blank" rel="noreferrer">
     <picture>
       <source srcSet={image} />
@@ -20,7 +20,7 @@ const Card = ({ children, image, desc, link }: props) => (
   </a>
 );
 
-type props = {
+type CardProps = {
   children: ReactNode;
   image: string;
   desc?: string;

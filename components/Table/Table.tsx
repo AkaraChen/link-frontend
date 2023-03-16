@@ -1,7 +1,7 @@
-import React, { ReactNode } from "react";
+import { FC, ReactNode } from "react";
 import styles from "./Table.module.css";
 
-const Note = ({ children }: props) => (
+const Note: FC<TableProps> = ({ children }) => (
   <div className={styles.container}>
     <table className={styles.table}>
       <tbody>{children}</tbody>
@@ -9,7 +9,7 @@ const Note = ({ children }: props) => (
   </div>
 );
 
-type props = {
+type TableProps = {
   children: ReactNode;
 };
 
