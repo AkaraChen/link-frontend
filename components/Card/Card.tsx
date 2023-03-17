@@ -1,24 +1,43 @@
-import { FC, ReactNode } from "react";
+import { FC, ReactNode, useState } from "react";
 import styles from "./Card.module.css";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
-const Card: FC<CardProps> = ({ children, image, desc, link }) => (
-  <a href={link} className={styles.container} target="_blank" rel="noreferrer">
-    <picture>
-      <source srcSet={image} />
-      <img
+const Card: FC<CardProps> = ({ children, image, desc, link }) => {
+  const [hover, setHover] = useState(false);
+  return (
+    <motion.a
+      href={link}
+      className={styles.container}
+      target="_blank"
+      rel="noreferrer"
+      onHoverStart={() => setHover(true)}
+      onHoverEnd={() => setHover(false)}
+    >
+      <Image
         className={styles.image}
         src={image}
         width={70}
         height={70}
-        alt={children?.toString()}
+        alt={children as string}
       />
-    </picture>
-    <section className={styles.section}>
-      <p className={styles.title}>{children}</p>
-      <span className={styles.desc}>{desc}</span>
-    </section>
-  </a>
-);
+      <section className={styles.section}>
+        <p className={styles.title}>{children}</p>
+        <span className={styles.desc}>{desc}</span>
+      </section>
+      {hover && (
+        <motion.div
+          className={styles.hover}
+          layoutId={"cardHover"}
+          initial={{
+            opacity: 0.05,
+            backgroundColor: "black",
+          }}
+        />
+      )}
+    </motion.a>
+  );
+};
 
 type CardProps = {
   children: ReactNode;

@@ -9,7 +9,7 @@ export interface Props {
   config: typeof config;
 }
 
-const Home: NextPage<Props> = props => (
+const Home: NextPage<Props> = (props) => (
   <Layout>
     <Head>
       <title>Friends</title>
@@ -21,7 +21,7 @@ const Home: NextPage<Props> = props => (
 );
 
 Home.getInitialProps = async () => ({
-  config: shuffle(config)
+  config: shuffle(config),
 });
 
 export default Home;

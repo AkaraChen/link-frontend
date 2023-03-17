@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 
-const Cell:FC<TableCellProps> = ({ name, children }) => (
+const Cell: FC<TableCellProps> = ({ name, children }) => (
   <tr>
     <td>{name}</td>
     <td>{children}</td>

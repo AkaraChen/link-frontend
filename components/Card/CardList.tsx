@@ -2,14 +2,14 @@ import styles from "./CardList.module.css";
 import Card from "./Card";
 import { data } from "../../config";
 import "animate.css";
+import { motion } from "framer-motion";
 
 const CardList = ({ list }: props) => {
-
   let delay = 0;
   const getDelay = () => ++delay / 10;
 
   return (
-    <section className={styles.container}>
+    <motion.section className={styles.container}>
       {list.map((item) => (
         <div
           style={{ animationDelay: `${getDelay()}s` }}
@@ -21,7 +21,7 @@ const CardList = ({ list }: props) => {
           </Card>
         </div>
       ))}
-    </section>
+    </motion.section>
   );
 };
 

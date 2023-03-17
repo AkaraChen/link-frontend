@@ -3,7 +3,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import { Rubik } from "next/font/google";
 
-const rubik = Rubik({ subsets: ['latin'] })
+const rubik = Rubik({ subsets: ["latin"] });
 
 const Header = () => (
   <div className={clsx(styles.container, rubik.className)}>
