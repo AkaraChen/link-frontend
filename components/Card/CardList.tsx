@@ -14,7 +14,7 @@ const CardList = ({ list }: props) => {
         <div
           style={{ animationDelay: `${getDelay()}s` }}
           className="animate__animated animate__bounceIn"
-          key={item.title}
+          key={Math.random()}
         >
           <Card image={item.avatar} desc={item.desc} link={item.link}>
             {item.title}
