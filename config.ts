@@ -1,4 +1,4 @@
-const config = [
+const config: Array<data> = [
   {
     title: "Timochan",
     link: "https://timochan.cn",
@@ -63,7 +63,12 @@ const config = [
     avatar: "/avatar/jsun969.png",
     desc: "LOL! Welcome to Justin Sun's personal website!",
   },
-] as data[];
+  {
+    title: "sxyazi",
+    link: "https://sxyz.blog/",
+    avatar: "/avatar/san.jpeg"
+  }
+];
 
 export default config;
 
