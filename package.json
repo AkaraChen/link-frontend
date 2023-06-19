@@ -10,7 +10,7 @@
     "fmt": "prettier -w ."
   },
   "dependencies": {
-    "@types/lodash": "4.14.191",
+    "@types/lodash": "4.14.195",
     "animate.css": "4.1.1",
     "clsx": "^1.2.1",
     "framer-motion": "^10.5.0",
